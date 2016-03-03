@@ -21,7 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "alex": ">=1.6.0",
+    "alex": "https://github.com/jeremyhansonfinger/alex-rorybot",
     "atom-package-deps": "^3.0.0",
     "minimatch": "^3.0.0"
   },
