@@ -8,10 +8,6 @@ Issues regarding **atom-linter-rory** should be opened in this
 [repository][linter-issues].
 Please raise issues with **alex** on its [repository][alex-issues].
 
-## License
-
-[MIT][license] © [Titus Wormer][author]
-
 <!-- References -->
 
 [atom]: https://atom.io
