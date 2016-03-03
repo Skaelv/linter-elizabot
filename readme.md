@@ -1,19 +1,10 @@
-# atom-linter-alex
+# atom-linter-rory
 
-[**Atom**][atom] [**linter**][linter] meets [**alex**][alex] to catch
-insensitive, inconsiderate writing.
-
-## Installation
-
-With [**apm**][apm]:
-
-```sh
-apm install linter-alex
-```
+[**Atom**][atom] [**linter**][linter] meets [**alex**][alex] to enforce Shopify content style.
 
 ## Contributing
 
-Issues regarding **atom-linter-alex** should be opened in this
+Issues regarding **atom-linter-rory** should be opened in this
 [repository][linter-issues].
 Please raise issues with **alex** on its [repository][alex-issues].
 
@@ -21,7 +12,7 @@ Please raise issues with **alex** on its [repository][alex-issues].
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions. -->
+<!-- References -->
 
 [atom]: https://atom.io
 
@@ -29,14 +20,12 @@ Please raise issues with **alex** on its [repository][alex-issues].
 
 [alex]: https://github.com/wooorm/alex
 
-[screencast]: https://rawgit.com/wooorm/atom-linter-alex/master/screencast.gif
-
 [apm]: https://github.com/atom/apm
 
 [license]: LICENSE
 
 [author]: http://wooorm.com
 
-[linter-issues]: https://github.com/wooorm/atom-linter-alex/issues
+[linter-issues]: https://github.com/admhlt/atom-linter-rory/issues
 
 [alex-issues]: https://github.com/wooorm/alex/issues
