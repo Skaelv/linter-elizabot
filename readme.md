@@ -3,8 +3,6 @@
 [**Atom**][atom] [**linter**][linter] meets [**alex**][alex] to catch
 insensitive, inconsiderate writing.
 
-![screencast][]
-
 ## Installation
 
 With [**apm**][apm]:

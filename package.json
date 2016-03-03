@@ -1,27 +1,8 @@
 {
-  "name": "linter-alex",
-  "version": "2.0.0",
-  "description": "Linter plugin using alex to catch insensitive, inconsiderate writing",
-  "license": "MIT",
-  "keywords": [
-    "markdown",
-    "text",
-    "alex",
-    "equal",
-    "race",
-    "religion",
-    "sex",
-    "orientation",
-    "identity",
-    "gender",
-    "sensitive",
-    "insensitive",
-    "neutral",
-    "writing",
-    "language",
-    "english",
-    "linter"
-  ],
+  "name": "linter-rory",
+  "version": "0.1.0",
+  "description": "Linter plugin to enforce Shopify content style",
+  "license": "UNLICENSED",
   "author": {
     "name": "Titus Wormer",
     "email": "tituswormer@gmail.com",
@@ -29,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooorm/atom-linter-alex.git"
+    "url": "https://github.com/admhlt/atom-linter-rory.git"
   },
-  "bugs": "https://github.com/wooorm/atom-linter-alex/issues",
+  "bugs": "https://github.com/admhlt/atom-linter-rory/issues",
   "main": "index.js",
   "files": [
     "index.js"
