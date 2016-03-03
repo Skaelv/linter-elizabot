@@ -1,8 +1,8 @@
 /**
  * @author Titus Wormer
  * @copyright 2015 Titus Wormer
- * @license MIT
- * @module atom:linter:alex
+ * @license UNLICENSED
+ * @module atom:linter:rory
  * @fileoverview Linter.
  */
 
@@ -29,7 +29,7 @@ var config = atom.config;
  * Activate.
  */
 function activate() {
-    deps.install('linter-alex');
+    deps.install('linter-rory');
 }
 
 /**
@@ -100,7 +100,7 @@ function linter() {
      *  resolved with a list of linter-errors or an error.
      */
     function onchange(editor) {
-        var settings = config.get('linter-alex');
+        var settings = config.get('linter-rory');
 
         if (minimatch(editor.getPath(), settings.ignoreFiles)) {
             return [];
@@ -125,7 +125,7 @@ function linter() {
     }
 
     return {
-        'grammarScopes': config.get('linter-alex').grammars,
+        'grammarScopes': config.get('linter-rory').grammars,
         'name': 'alex',
         'scope': 'file',
         'lintOnFly': true,
