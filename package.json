@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Linter plugin using rory to catch Shopify style guide violations",
   "license": "UNLICENSED",
+  "private": true,
   "author": {
     "name": "Titus Wormer",
     "email": "tituswormer@gmail.com",
