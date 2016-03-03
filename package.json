@@ -1,7 +1,7 @@
 {
   "name": "linter-rory",
   "version": "0.1.0",
-  "description": "Linter plugin to enforce Shopify content style",
+  "description": "Linter plugin using rory to catch Shopify style guide violations",
   "license": "UNLICENSED",
   "author": {
     "name": "Titus Wormer",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/admhlt/atom-linter-rory.git"
+    "url": "https://github.com/Shopify/linter-rory.git"
   },
-  "bugs": "https://github.com/admhlt/atom-linter-rory/issues",
+  "bugs": "https://github.com/Shopify/linter-rory/issues",
   "main": "index.js",
   "files": [
     "index.js"
@@ -21,7 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "alex": "https://github.com/jeremyhansonfinger/alex-rorybot",
+    "rory": "git+ssh://git@github.com:Shopify/rory.git",
     "atom-package-deps": "^3.0.0",
     "minimatch": "^3.0.0"
   },
