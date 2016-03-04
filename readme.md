@@ -28,6 +28,18 @@ From the same folder:
 
 The next time you launch Atom, the package **linter-rory** should be active, and your Markdown and HTML files should be linted according to Shopify style.
 
+## Linting custom file types
+
+By default, **linter-rory** works on the following languages:
+
+`source.asciidoc, source.gfm, source.pfm, text.html.basic, text.html.ruby, text.git-commit, text.plain`
+
+You can add custom languages to this list if you normally work with other kinds of files, for example, adding `source.ruby` will enable the style guide linter for Ruby (`.rb`) files.
+
+Note that **adding a custom language overwrites the default list**, so unless you add the default languages in your custom list, the linter will **only** run on the custom languages you've specified.
+
+You may have to restart Atom for changes to your language list to take effect.
+
 ## Contributing
 
 Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rory/issues).

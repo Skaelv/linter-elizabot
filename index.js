@@ -154,6 +154,8 @@ module.exports = {
                 'source.gfm',
                 'source.pfm',
                 'text.git-commit',
+                'text.html.basic',
+                'text.html.ruby',
                 'text.plain',
                 'text.plain.null-grammar'
             ]
