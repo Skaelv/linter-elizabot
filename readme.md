@@ -8,7 +8,7 @@
 
 ## Install linter-rory in Atom
 
-Installing the takes a few steps in your terminal.
+Installing the linter takes a few steps in your terminal.
 
 ### Install the base linter
 
