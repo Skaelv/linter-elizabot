@@ -110,7 +110,7 @@ function linter() {
             var messages;
 
             if (!alex) {
-                alex = require('alex');
+                alex = require('rory');
             }
 
             try {
@@ -126,7 +126,7 @@ function linter() {
 
     return {
         'grammarScopes': config.get('linter-rory').grammars,
-        'name': 'alex',
+        'name': 'rory',
         'scope': 'file',
         'lintOnFly': true,
         'lint': onchange
