@@ -1,3 +1,5 @@
+![linter-rory Atom package](linter-rory.gif)
+
 # linter-rory
 
 [**Atom**](https://atom.io) [**linter**](https://github.com/AtomLinter/Linter) meets [**rory**](https://github.com/Shopify/rory) to enforce Shopify content style.
