@@ -32,5 +32,4 @@ The next time you launch Atom, the package **linter-rory** should be active, and
 
 Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rory/issues).
 Raise issues with **rory** in [its repository](https://github.com/Shopify/rory).
-
-The style
+The styleguide ruleset is in the [retext-styleguide repository](https://github.com/Shopify/retext-styleguide).
