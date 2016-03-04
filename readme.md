@@ -32,7 +32,7 @@ The next time you launch Atom, the package **linter-rory** should be active, and
 
 By default, **linter-rory** works on the following languages:
 
-`source.asciidoc, source.gfm, source.pfm, text.html.basic, text.html.ruby, text.git-commit, text.plain`
+`source.gfm, text.html.basic, text.html.ruby, text.plain`
 
 You can add custom languages to this list if you normally work with other kinds of files, for example, adding `source.ruby` will enable the style guide linter for Ruby (`.rb`) files.
 
