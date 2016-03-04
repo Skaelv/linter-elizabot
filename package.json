@@ -1,6 +1,6 @@
 {
   "name": "linter-rory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Linter plugin using rory to catch Shopify style guide violations",
   "license": "UNLICENSED",
   "private": true,
