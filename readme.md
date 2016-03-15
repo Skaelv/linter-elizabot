@@ -1,12 +1,12 @@
-![linter-rory Atom package](linter-rory.gif)
+![linter-rorybot Atom package](linter-rorybot.gif)
 
-# linter-rory
+# linter-rorybot
 
-[**Atom**](https://atom.io) [**linter**](https://github.com/AtomLinter/Linter) meets [**rory**](https://github.com/Shopify/rory) to enforce Shopify content style.
+[**Atom**](https://atom.io) [**linter**](https://github.com/AtomLinter/Linter) meets [**rorybot**](https://github.com/Shopify/rorybot) to enforce Shopify content style.
 
-**linter-rory** is an Atom package that uses [**rory**](https://github.com/Shopify/rory) to check for style errors according to the [**retext-styleguide**](https://github.com/Shopify/retext-styleguide) ruleset.
+**linter-rorybot** is an Atom package that uses [**rorybot**](https://github.com/Shopify/rorybot) to check for style errors according to the [**retext-styleguide**](https://github.com/Shopify/retext-styleguide) ruleset.
 
-## Install linter-rory in Atom
+## Install linter-rorybot in Atom
 
 Installing the linter takes a few steps in your terminal.
 
@@ -18,19 +18,19 @@ Most linters depend on a "base" linter package that provides general line highli
 2. Type `cd ~/.atom/packages` to get to your local Atom packages folder.
 3. Type `apm install linter` to install the base linter package.
 
-### Install the rory linter
+### Install the rorybot linter
 
 From the same folder:
 
-1. Type `git clone git@github.com:Shopify/linter-rory.git` to clone the repository for the linter package.
-2. Type `cd linter-rory` to get to the package folder.
-3. Type `apm install` to install **linter-rory**'s dependencies.
+1. Type `git clone git@github.com:Shopify/linter-rorybot.git` to clone the repository for the linter package.
+2. Type `cd linter-rorybot` to get to the package folder.
+3. Type `apm install` to install **linter-rorybot**'s dependencies.
 
-The next time you launch Atom, the package **linter-rory** should be active, and your Markdown and HTML files should be linted according to Shopify style.
+The next time you launch Atom, the package **linter-rorybot** should be active, and your Markdown and HTML files should be linted according to Shopify style.
 
 ## Linting custom file types
 
-By default, **linter-rory** works on the following languages:
+By default, **linter-rorybot** works on the following languages:
 
 `source.gfm, text.html.basic, text.html.ruby, text.plain`
 
@@ -42,6 +42,6 @@ You may have to restart Atom for changes to your language list to take effect.
 
 ## Contributing
 
-Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rory/issues).
-Raise issues with **rory** in [its repository](https://github.com/Shopify/rory).
+Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rorybot/issues).
+Raise issues with **rorybot** in [its repository](https://github.com/Shopify/rorybot).
 The styleguide ruleset is in the [retext-styleguide repository](https://github.com/Shopify/retext-styleguide).
