@@ -1,8 +1,8 @@
 /**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license UNLICENSED
- * @module atom:linter:rory
+ * @author Adam Hollett and Jeremy Hanson-Finger
+ * @copyright 2016 Shopify
+ * @license ISC
+ * @module atom:linter:rorybot
  * @fileoverview Linter.
  */
 
