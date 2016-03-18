@@ -4,7 +4,7 @@
 
 [**Atom**](https://atom.io) [**linter**](https://github.com/AtomLinter/Linter) meets [**rorybot**](https://github.com/Shopify/rorybot) to enforce Shopify content style.
 
-**linter-rorybot** is an Atom package that uses [**rorybot**](https://github.com/Shopify/rorybot) to check for style errors according to the [**retext-styleguide**](https://github.com/Shopify/retext-styleguide) ruleset.
+**linter-rorybot** is an Atom package that uses [**rorybot**](https://github.com/Shopify/rorybot) to check for style errors according to the [**retext-shopify**](https://github.com/Shopify/retext-shopify) ruleset.
 
 ## Install linter-rorybot in Atom
 
@@ -44,4 +44,4 @@ You may have to restart Atom for changes to your language list to take effect.
 
 Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rorybot/issues).
 Raise issues with **rorybot** in [its repository](https://github.com/Shopify/rorybot).
-The styleguide ruleset is in the [retext-styleguide repository](https://github.com/Shopify/retext-styleguide).
+The styleguide ruleset is in the [retext-styleguide repository](https://github.com/Shopify/retext-shopify).

@@ -22,7 +22,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "rory": "git+ssh://git@github.com:Shopify/rorybot.git",
+    "rorybot": "git+ssh://git@github.com:Shopify/rorybot.git",
     "atom-package-deps": "^3.0.0",
     "minimatch": "^3.0.0"
   },
