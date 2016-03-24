@@ -43,5 +43,5 @@ You may have to restart Atom for changes to your language list to take effect.
 ## Contributing
 
 Raise issues for the Atom plugin in [this repository](https://github.com/Shopify/linter-rorybot/issues).
-Raise issues with **rorybot** in [its repository](https://github.com/Shopify/rorybot).
-The styleguide ruleset is in the [retext-styleguide repository](https://github.com/Shopify/retext-shopify).
+Raise issues with **rorybot** in [its repository](https://github.com/Shopify/rorybot/issues).
+The styleguide ruleset is in the [retext-shopify repository](https://github.com/Shopify/retext-shopify).
