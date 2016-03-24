@@ -100,7 +100,7 @@ function linter() {
      *  resolved with a list of linter-errors or an error.
      */
     function onchange(editor) {
-        var settings = config.get('linter-rory');
+        var settings = config.get('linter-rorybot');
 
         if (minimatch(editor.getPath(), settings.ignoreFiles)) {
             return [];
@@ -125,8 +125,8 @@ function linter() {
     }
 
     return {
-        'grammarScopes': config.get('linter-rory').grammars,
-        'name': 'rory',
+        'grammarScopes': config.get('linter-rorybot').grammars,
+        'name': 'rorybot',
         'scope': 'file',
         'lintOnFly': true,
         'lint': onchange
@@ -153,7 +153,7 @@ module.exports = {
                 'source.gfm',
                 'text.html.basic',
                 'text.html.ruby',
-                'text.plain',
+                'text.plain'
             ]
         }
     },
