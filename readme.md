@@ -20,11 +20,11 @@ Most linters depend on a "base" linter package that provides general line highli
 
 ### Install the rorybot linter
 
-From the same folder:
-
-1. Type `git clone git@github.com:Shopify/linter-rorybot.git` to clone the repository for the linter package.
-2. Type `cd linter-rorybot` to get to the package folder.
-3. Type `apm install` to install **linter-rorybot**'s dependencies.
+1. Open Atom.
+2. Press `cmd` + `shift` + `p` to open the command palette.
+3. Type `install pack` to  bring up `Settings View: Install Packages And Themes`. Press `enter`.
+4. Type `linter-rorybot` in the search box and press the **Install** button next to **linter-rorybot**.
+5. Quit and reopen Atom.
 
 The next time you launch Atom, the package **linter-rorybot** should be active, and your Markdown and HTML files should be linted according to Shopify style.
 
