@@ -12,12 +12,12 @@
 'use strict';
 
 /*
- * Dependencies (alex is lazy-loaded later).
+ * Dependencies (rorybot is lazy-loaded later).
  */
 
 var deps = require('atom-package-deps');
 var minimatch = require('minimatch');
-var alex;
+var rorybot;
 
 /*
  * Constants.
@@ -33,7 +33,7 @@ function activate() {
 }
 
 /**
- * Atom meets alex to catch insensitive, inconsiderate
+ * Atom meets rorybot to catch insensitive, inconsiderate
  * writing.
  *
  * @return {LinterConfiguration} - Configuration.
@@ -59,7 +59,7 @@ function linter() {
     }
 
     /**
-     * Transform a reason for warning from alex into
+     * Transform a reason for warning from rorybot into
      * pretty HTML.
      *
      * @param {string} reason - Messsage in plain-text.
@@ -91,7 +91,7 @@ function linter() {
      * Handle on-the-fly or on-save (depending on the
      * global atom-linter settings) events. Yeah!
      *
-     * Loads `alex` on first invocation.
+     * Loads `rorybot` on first invocation.
      *
      * @see https://github.com/atom-community/linter/wiki/Linter-API#messages
      *
@@ -109,12 +109,12 @@ function linter() {
         return new Promise(function (resolve, reject) {
             var messages;
 
-            if (!alex) {
-                alex = require('rory');
+            if (!rorybot) {
+                rorybot = require('rorybot');
             }
 
             try {
-                messages = alex(editor.getText()).messages;
+                messages = rorybot(editor.getText()).messages;
             } catch (e) {
                 reject(e);
                 return;
