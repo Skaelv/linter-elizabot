@@ -14,17 +14,15 @@ Installing the linter takes a few steps in your terminal.
 
 Most linters depend on a "base" linter package that provides general line highlighting and error message functionality.
 
-1. Open a terminal session.
-2. Type `cd ~/.atom/packages` to get to your local Atom packages folder.
-3. Type `apm install linter` to install the base linter package.
-
-### Install the rorybot linter
-
 1. Open Atom.
 2. Press `cmd` + `shift` + `p` to open the command palette.
 3. Type `install pack` to  bring up `Settings View: Install Packages And Themes`. Press `enter`.
-4. Type `linter-rorybot` in the search box and press the **Install** button next to **linter-rorybot**.
-5. Quit and reopen Atom.
+4. Type `linter` in the search box and press the **Install** button next to **linter**.
+
+### Install the rorybot linter
+
+1. Type `linter-rorybot` in the **Install Packages and Themes** search box and press the **Install** button next to **linter-rorybot**.
+2. Quit and reopen Atom.
 
 The next time you launch Atom, the package **linter-rorybot** should be active, and your Markdown and HTML files should be linted according to Shopify style.
 
