@@ -17,7 +17,7 @@ Most linters depend on a "base" linter package that provides general line highli
 1. Open Atom.
 2. Press `cmd` + `shift` + `p` to open the command palette.
 3. Type `install pack` to  bring up `Settings View: Install Packages And Themes`. Press `enter`.
-4. Type `linter` in the search box and press the **Install** button next to **linter**.
+4. Type `base linter` in the search box and press the **Install** button next to **linter** (the one described as "A Base Linter with Cow Powers.")
 
 ### Install the rorybot linter
 
