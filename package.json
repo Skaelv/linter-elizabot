@@ -1,14 +1,14 @@
 {
-  "name": "linter-rorybot",
+  "name": "linter-elizabot",
   "version": "1.1.2",
-  "description": "Atom linter plugin using rorybot to catch Shopify style guide violations",
+  "description": "Atom linter plugin using eliza-bot to catch Intercom style guide violations",
   "license": "MIT",
-  "homepage": "https://github.com/Shopify/linter-rorybot",
+  "homepage": "https://github.com/skaelv/linter-elizabot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/linter-rorybot.git"
+    "url": "https://github.com/skaelv/linter-elizabot.git"
   },
-  "bugs": "https://github.com/Shopify/linter-rorybot/issues",
+  "bugs": "https://github.com/Shopify/linter-elizabot/issues",
   "author": {
     "name": "Adam Hollett",
     "email": "adam.hollett@shopify.com",
@@ -26,6 +26,10 @@
     {
       "name": "Zachary Kain",
       "email": "zachary.kain@shopify.com"
+    },
+    {
+      "name": "Kevin Antoine",
+      "email": "kevin.antoine@intercom.io"
     }
   ],
   "main": "index.js",
@@ -36,7 +40,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "rorybot": "^1.0.0",
+    "eliza-bot": "^1.0.0",
     "atom-package-deps": "^3.0.0",
     "minimatch": "^3.0.0"
   },

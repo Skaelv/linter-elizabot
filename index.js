@@ -17,7 +17,7 @@
 
 var deps = require('atom-package-deps');
 var minimatch = require('minimatch');
-var rorybot;
+var elizabot;
 
 /*
  * Constants.
@@ -29,7 +29,7 @@ var config = atom.config;
  * Activate.
  */
 function activate() {
-    deps.install('linter-rory');
+    deps.install('linter-elizabot');
 }
 
 /**
@@ -100,7 +100,7 @@ function linter() {
      *  resolved with a list of linter-errors or an error.
      */
     function onchange(editor) {
-        var settings = config.get('linter-rorybot');
+        var settings = config.get('linter-elizabot');
 
         if (minimatch(editor.getPath(), settings.ignoreFiles)) {
             return [];
@@ -109,12 +109,12 @@ function linter() {
         return new Promise(function (resolve, reject) {
             var messages;
 
-            if (!rorybot) {
-                rorybot = require('rorybot');
+            if (!elizabot) {
+                elizabot = require('eliza-bot');
             }
 
             try {
-                messages = rorybot(editor.getText()).messages;
+                messages = elizabot(editor.getText()).messages;
             } catch (e) {
                 reject(e);
                 return;
@@ -125,8 +125,8 @@ function linter() {
     }
 
     return {
-        'grammarScopes': config.get('linter-rorybot').grammars,
-        'name': 'rorybot',
+        'grammarScopes': config.get('linter-elizabot').grammars,
+        'name': 'elizabot',
         'scope': 'file',
         'lintOnFly': true,
         'lint': onchange
