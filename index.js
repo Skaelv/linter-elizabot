@@ -158,7 +158,6 @@ module.exports = {
                 'source.js',
                 'source.json',
                 'source.gfm',
-                'text.html.basic',
                 'text.html.ruby',
                 'text.html.htmlbars',
                 'text.plain'
