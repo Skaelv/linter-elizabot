@@ -154,7 +154,7 @@ module.exports = {
                 'source.hbs',
                 'text.html.basic',
                 'text.html.erb',
-                'source.ruby.rails'
+                'source.ruby.rails',
                 'source.js',
                 'source.json',
                 'source.gfm',
