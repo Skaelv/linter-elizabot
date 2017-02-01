@@ -1,6 +1,6 @@
 {
   "name": "linter-elizabot",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Atom linter plugin using eliza-bot to catch Intercom style guide violations",
   "license": "MIT",
   "homepage": "https://github.com/skaelv/linter-elizabot",
