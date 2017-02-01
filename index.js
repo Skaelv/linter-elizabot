@@ -150,6 +150,13 @@ module.exports = {
                 'defaults.',
             'type': 'array',
             'default': [
+                'text.html.mustache',
+                'source.hbs',
+                'text.html.basic',
+                'text.html.erb',
+                'source.ruby.rails'
+                'source.js',
+                'source.json',
                 'source.gfm',
                 'text.html.basic',
                 'text.html.ruby',
